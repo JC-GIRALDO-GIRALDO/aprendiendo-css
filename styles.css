@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/*AFECTA A TODO EL CUERPO DE LA PAGINA */
+body {
+    background-color: coral;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+}
+
+/*CONTENEDOR 1 COLUMNA 1 */
+.sidebar {
+    background-color: rgb(43, 41, 145);
+    float: left;
+    height: 1000px;
+    width: 30%;
+}
+
+/* H1 */
+h1 {
+    background-color: rgb(39, 5, 117);
+    text-align: center;
+    height: 66px;
+}
+
+/*IMAGEN FOTO*/
+img {
+    opacity: 90%;
+    float: left;
+    height: 600px;
+    width: 400px;
+}
+
+/*CONTENEDOR 2 COLUMNA 2 */
+.content {
+    background-color:rgba(255, 255, 255, 0);
+    float: right;
+    height: 1000px;
+    width: 70%;
+}
+
+/*SUBTITULOS DEL CONTENEDOR 2 */
+h2 {
+    background-color: rgb(39, 5, 117);
+    text-align: center;
+    font-size: 50px; 
+}
+
+/*CONTENIDO DE UL Y LI CONTENEDOR 2*/
+li {
+    background-color: coral;
+    text-align: center;
+    font-size: 50px;  
+    
+}
+
+
+/* backdrop-repeat: no-repeat; */ /*sirve para colocar imagenes verticales u horizontales o que no se repitan */
+/* background-position: right top; */ /*sirve para colocar una imagen segula pocicion */
+/* background-attachment: fixed;*/ /*sirve para que una imagen o algo se quede fijo a medida que se suve o baja la pagina */
