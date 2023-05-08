@@ -1,61 +1,64 @@
-* {
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url(images/Hexagon\ Pattern\ Background\ Abstract\ Geometric\ Wallpaper.jpg);
+}
+
+.container {
+    max-width: 1500px;
+    margin: auto;
+}
+
+.aside {
+    float: left;
+    width: 300px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: darkcyan;
+    margin-left: 200px;
+}
+
+#imagenaside {
+    width: 300px;
+    list-style: circle 300px;
+}
+
+h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    background-color: rgba(255, 0, 0, 0);   
+}
+
+h2 {
+    padding: 0;
+    margin-top: 40px;
+    list-style: lower-roman 100px;
+}
+
+.aside ul {
+    text-align: justify;
+    background-color: aqua;
+    list-style: none;
     margin: 0;
     padding: 0;
 }
 
-/*AFECTA A TODO EL CUERPO DE LA PAGINA */
-body {
-    background-color: coral;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;   
+.aside ul li {
+    background-color: blueviolet;
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
 
-/*CONTENEDOR 1 COLUMNA 1 */
-.sidebar {
-    background-color: rgb(43, 41, 145);
-    float: left;
-    height: 1000px;
-    width: 30%;
-}
-
-/* H1 */
-h1 {
-    background-color: rgb(39, 5, 117);
-    text-align: center;
-    height: 66px;
-}
-
-/*IMAGEN FOTO*/
-img {
-    opacity: 90%;
-    float: left;
-    height: 600px;
-    width: 400px;
-}
-
-/*CONTENEDOR 2 COLUMNA 2 */
-.content {
-    background-color:rgba(255, 255, 255, 0);
+.main {
     float: right;
-    height: 1000px;
-    width: 70%;
-}
-
-/*SUBTITULOS DEL CONTENEDOR 2 */
-h2 {
-    background-color: rgb(39, 5, 117);
+    width: 700px;
     text-align: center;
-    font-size: 50px; 
+    margin-top: 5px;
+    margin-bottom: 5px;
+    background-color: darkgoldenrod;
+    margin-right: 300px;
 }
-
-/*CONTENIDO DE UL Y LI CONTENEDOR 2*/
-li {
-    background-color: coral;
-    text-align: center;
-    font-size: 50px;  
-    
-}
-
-
-/* backdrop-repeat: no-repeat; */ /*sirve para colocar imagenes verticales u horizontales o que no se repitan */
-/* background-position: right top; */ /*sirve para colocar una imagen segula pocicion */
-/* background-attachment: fixed;*/ /*sirve para que una imagen o algo se quede fijo a medida que se suve o baja la pagina */
